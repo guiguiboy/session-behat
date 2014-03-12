@@ -1,0 +1,28 @@
+{
+    "name": "guiguiboy/session-behat",
+    "description": "Package to present and test behat/Mink in a web app",
+    "authors": [
+        {
+            "name": "Guiguiboy",
+            "email": "guiguiboy@example.com"
+        }
+    ],
+
+    "require": {
+        "silex/silex": "~1.1",
+        "twig/twig": ">=1.8,<2.0-dev",
+
+        "behat/behat": "*",
+        "behat/mink": "*",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver": "*",
+        "behat/mink-selenium-driver": "*",
+        "behat/mink-selenium2-driver": "*",
+        "behat/mink-sahi-driver": "*",
+        "behat/mink-zombie-driver": "*"
+    },
+
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
